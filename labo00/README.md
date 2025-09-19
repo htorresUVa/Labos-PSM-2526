@@ -183,11 +183,14 @@ fun main() {
 ```kotlin
 var nombre = "Diego"
 val edad = 30
-
 nombre = "Juan"  // Esto está permitido
 // edad = 31    // Esto generaría un error
+
+```
+
 - Las variables declaradas con `var` **pueden cambiar/modificarse**.
 - Las variables declaradas con `val` **no pueden cambiar**.
+
 
 ---
 
