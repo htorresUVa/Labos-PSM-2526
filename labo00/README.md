@@ -9,7 +9,7 @@ El contenido de este manual está basado en la documentación disponible en w3sc
 - [📘 Manual rápido de Kotlin](#-manual-rápido-de-kotlin)
 - [💻 Introducción a Kotlin](#-introducción-a-kotlin)
 - [📝 Comentario en Kotlin](#-comentario-en-kotlin)
-- [📊 Variables](#-variables-1)
+- [📊 Variables](#-variables)
 - [🔢 Tipos de datos](#-tipos-de-datos)
 - [➕ Operadores](#-operadores)
 - [🔠 Strings](#-strings-1)
@@ -91,36 +91,6 @@ Esto ya no es necesario, y el programa funcionará sin ello. Sin embargo, no hab
 ### **Prueba**:
 Trata de usar en tu código la definición completa del main.
 
-## 💡 Variables
-
-Kotlin soporta diferentes tipos de variables. Puedes declarar variables utilizando `var` o `val`:
-
-- `var`: Se utiliza para variables que pueden cambiar su valor.
-- `val`: Se utiliza para variables que no pueden cambiar su valor (constantes).
-
-### Ejemplo:
-
-```kotlin
-fun main() {
-    var nombre = "Diego"
-    val edad = 30
-    
-    println("Mi nombre es $nombre y tengo $edad años.")
-}
-```
-
-### **Prueba**:
-1. Cambia el valor de la variable `nombre` para que refleje tu propio nombre.
-2. Intenta cambiar el valor de `edad` y observa lo que sucede.
-
-### 🎯 Reto:
-Escribe un programa en Kotlin que defina dos variables:
-
-1. Una variable `var` para guardar el nombre de una ciudad.
-2. Una variable `val` para guardar el año de fundación de la ciudad.
-
-El programa debe imprimir algo como: "La ciudad de Segovia está a una altura media de 1002 metros sobre el nivel del mar".
-
 ---
 
 # 📝 Comentario en Kotlin
@@ -183,7 +153,10 @@ Escribe un programa en Kotlin que utilice comentarios de una sola línea y comen
 
 Las variables son contenedores para almacenar valores de datos.
 
-Para crear una variable, se utiliza `var` o `val`, y se le asigna un valor con el signo igual (`=`).
+Kotlin soporta diferentes tipos de variables. Puedes declarar variables utilizando `var` o `val`:
+
+- `var`: Se utiliza para variables que pueden cambiar su valor.
+- `val`: Se utiliza para variables que no pueden cambiar su valor (constantes).
 
 ### 🔧 Sintaxis
 
@@ -195,19 +168,44 @@ val variableName = value
 ### Ejemplo:
 
 ```kotlin
-var name = "John"
-val birthyear = 1975
-
-println(name)        // Imprime el valor de name
-println(birthyear)   // Imprime el valor de birthyear
+fun main() {
+    var nombre = "Diego"
+    val edad = 30
+    
+    println("Mi nombre es $nombre y tengo $edad años.")
+}
 ```
 
 ---
 
 ### 🔄 Diferencia entre `var` y `val`
 
+```kotlin
+var nombre = "Diego"
+val edad = 30
+nombre = "Juan"  // Esto está permitido
+// edad = 31    // Esto generaría un error
+
+```
+
 - Las variables declaradas con `var` **pueden cambiar/modificarse**.
 - Las variables declaradas con `val` **no pueden cambiar**.
+
+
+---
+
+### **Prueba**:
+1. Cambia el valor de la variable `nombre` para que refleje tu propio nombre.
+2. Intenta cambiar el valor de `edad` y observa lo que sucede.
+
+### 🎯 Reto:
+Escribe un programa en Kotlin que defina dos variables:
+
+1. Una variable `var` para guardar el nombre de una ciudad.
+2. Una variable `val` para guardar la altura sobre el nivel del mar de la ciudad.
+
+El programa debe imprimir algo como: "La ciudad de Segovia está a una altura media de 1002 metros sobre el nivel del mar".
+
 
 ---
 
