@@ -1254,9 +1254,9 @@ println(result)
 
 # 🔁 Bucle While
 
-## LPOOs
+## LOOPs
 
-Los bucles (o lPOOs) pueden ejecutar un bloque de código mientras se cumpla una condición específica.
+Los bucles (o loops) pueden ejecutar un bloque de código mientras se cumpla una condición específica.
 
 Los bucles son útiles porque ahorran tiempo, reducen errores y hacen que el código sea más legible.
 
