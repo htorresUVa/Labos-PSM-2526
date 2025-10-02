@@ -21,7 +21,7 @@ Ante cualquier error o sugerencia, por favor, contáctame en mi correo: [diego.m
 |-------------|-----------|-----------|
 | Lab 00 | [Manual Rápido de **Kotlin**](/labo00/README.md) |   |
 | Lab 01 | [Primeros pasos en **Android Studio**](/labo01/README.md) |  |
-| Lab 02a | Piedra, papel y tijeras 🚽✂️📄 **[próximamente]** |   |
+| Lab 02a | [Piedra, papel y tijeras 🚽✂️📄](/labo02/README.md) |  |
 | Lab 02b | Reto **[próximamente]** | ✅ |
 | Lab 03a | Funciones **[próximamente]** |   |
 | Lab 03b | Reto Funciones **[próximamente]** |   |
