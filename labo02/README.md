@@ -7,8 +7,7 @@ Estas guías de laboratorio han sido elaboradas por:
  **Diego Martín de Andrés** 
  
  Para la asignatura **Plataformas Software Móviles (PSM)** 
- 
- En el curso académico 2024/2025. 🎓
+  
 
 ---
 
