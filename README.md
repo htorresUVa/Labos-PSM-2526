@@ -23,9 +23,9 @@ Ante cualquier error o sugerencia, por favor, contáctame en mi correo: [diego.m
 | Lab 01 | [Primeros pasos en **Android Studio**](/labo01/README.md) |  |
 | Lab 02a | [Piedra, papel y tijeras 🚽✂️📄](/labo02/README.md) |  |
 | Lab 02b | [Reto](/labo02/retoLabo02.md) | ✅ |
-| Lab 03a | Funciones **[próximamente]** |   |
+| Lab 03a | [Funciones](/labo03/funciones/README.md) |  |
 | Lab 03b | Reto Funciones **[próximamente]** | ✅  |
-| Lab 03c | Colecciones **[próximamente]** |   |
+| Lab 03c | [Colecciones](/labo03/colecciones/README.md) |  |
 | Lab 03d | Reto Bancario **[próximamente]** | ✅  |
 | Lab 04a | Funciones Lambda **[próximamente]** |   |
 | Lab 04b | Manual de Jetpack Compose: Construyendo tu primera interfaz gráfica **[próximamente]** |   |
