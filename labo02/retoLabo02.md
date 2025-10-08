@@ -245,19 +245,20 @@ Prueba tu clase `AngryBird` con el siguiente código:
 
 ```kotlin
 fun main() {
-    print("Introduzca la velocidad inicial de disparo (real, cuidado con la coma decimal) = ")
-    val velocidad = readlnOrNull()?.toDoubleOrNull() ?: error("Valor no válido para la velocidad")
+    print("Introduzca la velocidad inicial de disparo (real, use punto como separador decimal) = ")
+    val velocidad = readln().toDoubleOrNull() ?: 0.0  // Si no es válido, asigna 0.0
 
-    print("Introduzca el angulo de disparo (real, cuidado con la coma decimal) = ")
-    val angulo = readlnOrNull()?.toDoubleOrNull() ?: error("Valor no válido para el ángulo")
+    print("Introduzca el ángulo de disparo (real, use punto como separador decimal) = ")
+    val angulo = readln().toDoubleOrNull() ?: 0.0  // Si no es válido, asigna 0.0
 
     val ab = AngryBird("Pajaro Bomba", velocidad, angulo)
     println(ab.toString())
 
     println("Tiempo = ${ab.getTiempo()}")
-    println("Altura maxima = ${ab.getAltura()}")
+    println("Altura máxima = ${ab.getAltura()}")
     println("Distancia = ${ab.getDistancia()}")
 }
+
 ```
 
 ## ¿Obtienes los resultados correctos? ¿Cómo podrías probarlo? 🤔
