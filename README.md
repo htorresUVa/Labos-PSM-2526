@@ -24,12 +24,12 @@ Ante cualquier error o sugerencia, por favor, contáctame en mi correo: [diego.m
 | Lab 02a | [Piedra, papel y tijeras 🚽✂️📄](/labo02/README.md) |  |
 | Lab 02b | [Reto](/labo02/retoLabo02.md) | ✅ |
 | Lab 03a | [Funciones](/labo03/funciones/README.md) |  |
-| Lab 03b | Reto Funciones **[próximamente]** | ✅  |
+| Lab 03b | [Reto Funciones](/labo03/funciones/RetoFunciones.md) | ✅ |
 | Lab 03c | [Colecciones](/labo03/colecciones/README.md) |  |
-| Lab 03d | Reto Bancario **[próximamente]** | ✅  |
+| Lab 03d | [Reto Bancario](/labo03/colecciones/RetoBancario.md) | ✅ |
 | Lab 04a | Funciones Lambda **[próximamente]** |   |
 | Lab 04b | Manual de Jetpack Compose: Construyendo tu primera interfaz gráfica **[próximamente]** |   |
-| Lab 05 | Gestión de estados App conversión de Unidades **[próximamente]** |   |
+| Lab 05 | Gestión de estados App conversión de Unidades **[próximamente]** | ✅  |
 | Lab 06 | 🚽✂️📄 Piedra, Papel o Tijera con GUI **[próximamente]** |   |
 | Lab 07a | 📱 App Lista de la compra **[próximamente]** |   |
 | Lab 07b | Manual Kotlin: Map, Copy, Let **[próximamente]** |   |
