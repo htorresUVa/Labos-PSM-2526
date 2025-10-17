@@ -201,7 +201,7 @@ A continuación, se presenta __un ejemplo__ más avanzado donde se crea un compo
 
 ```kotlin
 @Composable
-fun ConversorDeUnidades() {
+fun ConversorUnidades(modifier: Modifier) {
     Column {
         Text(text = "Introduce un valor a convertir:")
         TextField(value = "", onValueChange = {}, modifier = Modifier)
@@ -244,7 +244,7 @@ Nos quedaría algo de la siguiente manera:
 
 ```kotlin
 @Composable
-fun ConversorUnidades() {
+fun ConversorUnidades(modifier: Modifier) {
     Column {
         Text(text = "Conversor de Unidades")
         OutlinedTextField(
@@ -364,8 +364,14 @@ La mejor forma de trabajar con una vista previa, es crear una función que se4 l
 ```kotlin
 @Preview
 @Composable
-fun ConversorUnidadesPreview() {
-    ConversorUnidades()
+fun ConversorUnidadesPreview(modifier: Modifier = Modifier) {
+    ConversorDeUnidadesTheme {
+        ConversorUnidades(
+            modifier = Modifier
+                .padding()
+                .padding(16.dp) // padding interno opcional
+        )
+    }
 }
 ```
 
@@ -385,8 +391,8 @@ Podemos personalizar la vista previa de varias formas:
 ```kotlin
 @Preview(showBackground = true)
 @Composable
-fun ConversorUnidadesPreview() {
-    ConversorUnidades()
+fun ConversorUnidadesPreview(modifier: Modifier = Modifier) {
+    ...
 }
 ```
 
@@ -399,7 +405,7 @@ Si estamos trabajando en un tema oscuro, podemos cambiar el fondo de la vista pr
 @Preview(showBackground = true, uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
 @Composable
 fun ConversorUnidadesPreview() {
-    ConversorUnidades()
+    ...
 }
 ```
 Nota: es posible que no se vean los cambios reflejados en `preview` prueba en el modo emulación.
@@ -433,7 +439,8 @@ Una vez creado el botón, al ser clicado se ejecutará la acción especificada e
 Vamos a colocar este botón debajo del objeto `OutlinedTextField` en una nueva fila con la función `Row`:
 
 ```kotlin
-fun ConversorUnidades() {
+@Composable
+fun ConversorUnidades(modifier: Modifier) {
     Column {
         Text(text = "Conversor de Unidades")
         OutlinedTextField(
